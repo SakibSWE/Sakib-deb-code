@@ -16,10 +16,16 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 /*Main style*/
 header{
     background-color: #FFF8F3;
+    background:url(../images/developer.png),url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
+    
     padding: 50px;
 }
 .logo{
@@ -48,4 +54,32 @@ nav .menu a{
     font-size: 20px;
     text-decoration: none;
     color: #474747;
+}
+#banner{
+    margin: 66px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banar-container h2{
+ font-size: 45px;
+ font-weight: 600;
+ margin-bottom: 5px;
+ color: #474747;
+}
+#banner .banar-container h1{
+ font-size: 85px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ color: #181818;
+}
+#banner .banar-container p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    columns: #757575;
+}
+#banner .banar-img img{
+    width: 584px;
+    vertical-align: middle;
 }
